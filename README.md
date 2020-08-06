@@ -7,6 +7,6 @@ Generates csv file similar to 'save XY coordinates' function but for multichanne
 Guide:
   1. open image
   2. select ROIs and save them in the ROI Manager
-  3. Run Macro
-    select destination folder in open window
-    Results will include .zip file with ROI data and .csv files for each ROI
+  3. Run Macro n\
+    select destination folder in open window n\
+    Results will include .zip file with ROI data and .csv files for each ROI n\
