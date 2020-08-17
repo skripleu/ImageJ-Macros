@@ -63,7 +63,12 @@ for (r=0; r < num_roi; r++){
 	// save composite results to resultdirectory
 	selectWindow("Results");
 	
-	saveAs("Results", resultDir + "/" + title + "_roi" + toString(r) + ".csv");
+	//get roi number as 3 digit number
+	r_string = toString(r);
+    	while (lengthOf(r_string)<3)
+        	r_string = "0"+r_string;
+        
+	saveAs("Results", resultDir + "/" + title + "_roi" + r_string + ".csv");
 }
 //Delete the intermediat files and directory 
 list = getFileList(newDir);
