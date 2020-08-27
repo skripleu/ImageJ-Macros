@@ -1,5 +1,5 @@
 # ImageJ-Macros
-Repository to collect all my Macros for imageJ
+Repository to collect my macros scripts for imageJ
 
 ## multichannel_XY_xoordinates
 Generates csv file similar to 'save XY coordinates' function but for multichannel images
