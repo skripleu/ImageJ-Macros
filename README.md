@@ -2,6 +2,14 @@
 Repository to collect my macros scripts for imageJ
 
 ## multichannel_XY_xoordinates
+Saves images from an input folder to an output folder. Converts them to 8bit.
+
+Guide:
+1. run macro
+2. select input folder
+3. select ouput folder
+
+## multichannel_XY_xoordinates
 Generates csv files similar to 'save XY coordinates' function but for multichannel images
 
 Guide:
